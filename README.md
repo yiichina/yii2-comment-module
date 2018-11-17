@@ -24,3 +24,5 @@ composer require --prefer-dist yiichina/yii2-comments "*"
 
 到你的 `composer.json` 文件的包含部分。
 
+
+包括回复，引用，投票，分享等功能
