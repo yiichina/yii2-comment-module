@@ -1,9 +1,9 @@
 {
-    "name": "yiichina/yii2-comments",
-    "description": "Yii 2 Advanced Application Template",
-    "keywords": ["yii2", "framework", "advanced", "application template"],
-    "homepage": "http://www.yiiframework.com/",
-    "type": "project",
+    "name": "yiichina/yii2-comment-module",
+    "description": "Yii 2 Comment Module",
+    "keywords": ["yii2", "framework", "comment", "module"],
+    "homepage": "https://www.yiichina.com/",
+    "type": "module",
     "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/yiisoft/yii2/issues?state=open",
@@ -15,9 +15,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "*",
-        "yiisoft/yii2-bootstrap": "*",
-        "yiisoft/yii2-swiftmailer": "*"
+        "yiisoft/yii2": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
@@ -27,15 +25,5 @@
     },
     "config": {
         "process-timeout": 1800
-    },
-    "extra": {
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
-        }
-    },
-    "repositories": [
-        {"type": "composer", "url": "http://pkg.phpcomposer.com/repo/packagist/"},
-        {"packagist": false}
-    ]
+    }
 }
