@@ -1,4 +1,4 @@
-Yii Comments
+Yii Comment Module
 ===================================
 
 [![Latest Stable Version](https://poser.pugx.org/yiichina/yii2-comment-module/v/stable.png)](https://packagist.org/packages/yiichina/yii2-comments)
@@ -13,7 +13,7 @@ Yii Comments
 可以运行
 
 ```
-composer require --prefer-dist yiichina/yii2-module "*"
+composer require --prefer-dist yiichina/yii2-comment-module "*"
 ```
 
 也可以添加
